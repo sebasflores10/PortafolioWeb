@@ -19,5 +19,33 @@ body {
 
 #myImage{
     border-radius: 60%;
-    border: solid 5px 3px;
+    border: 5px solid;
+}
+
+
+.welcome-text{
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+
+.welcome-text h2 {
+    margin-bottom: 1rem;
+}
+
+
+.welcome-text p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+.head {
+    font-weight: bold;
+}
+
+
+.custom-bi {
+    color: darkblue;
+    font-size: 50px; /* Incrementa el tamaño del ícono */
 }

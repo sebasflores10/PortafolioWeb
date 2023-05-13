@@ -5,16 +5,28 @@
       "PackagePath": "staticwebassets\\PortafolioWeb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\Images\\me.heic",
-      "PackagePath": "staticwebassets\\Images\\me.heic"
-    },
-    {
       "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\briefcase.jpg",
+      "PackagePath": "staticwebassets\\img\\briefcase.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.PNG",
+      "PackagePath": "staticwebassets\\img\\me.PNG"
+    },
+    {
+      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.heic",
+      "PackagePath": "staticwebassets\\img\\me.heic"
+    },
+    {
+      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\tek-experts.PNG",
+      "PackagePath": "staticwebassets\\img\\tek-experts.PNG"
     },
     {
       "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\js\\site.js",

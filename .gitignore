@@ -1,0 +1,17 @@
+# VS2022 Solution
+*.csproj
+
+
+# Cache
+*dtbcache.v2
+*ProjectEvaluation/portafolioweb.*
+
+
+# Debug - Net6.0 | staticwebassets
+PortafolioWeb/bin/*
+PortafolioWeb/obj/*
+
+# .vs Directories
+.vs/PortafolioWeb/*
+.vs/ProjectEvaluation/*
+

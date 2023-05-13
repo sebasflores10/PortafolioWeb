@@ -15,7 +15,23 @@ namespace PortafolioWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var proyectos = obtenerPortafolio().ToList();
+            var modelo = new HomeIndexViewModel { portafolioDTO = proyectos };
+            return View(modelo);
+        }
+
+        private List<PortafolioDTO> obtenerPortafolio()
+        {
+
+            return new List<PortafolioDTO> { new PortafolioDTO
+
+                {
+                    titulo = "Tek Experts",
+                    descripcion = "Technical Support Engineer Lvl2",
+                    imagenURL = "/img/tek-experts.png",
+                    link = "https://www.tek-experts.com/"
+                }
+            };
         }
 
         public IActionResult Privacy()

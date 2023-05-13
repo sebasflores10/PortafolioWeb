@@ -1,11 +1,44 @@
-﻿@{
+﻿@model HomeIndexViewModel
+
+@{
     ViewData["Title"] = "Portafolio";
 }
 
 <div class="text-center">
-    <h2 class="display-4">Hola, soy Sebastián</h2>
-    <img src="~/lib/images/me.png" alt="~/lib/images/me.heic" id="myImage" />
-    <p>Soy un estudiante que está por graduarse en ingeniería de Sistemas de Computación. Mis conocimientos se
-        basan en lenguajes orientados a la Web, tales como: C#, JavaScript, HTML5, CSS3, 
-    </p>
+
+    <partial name="_Introduction" />
+
+    <partial name="_Skills" />
+    
+    @if (Model.portafolioDTO != null)
+    {
+        <div class="text-center" style="padding-top: 6rem;">
+            <h2>Mis trabajos más recientes</h2>
+            <p>A continuación, te mostraré algunos de los proyectos en los que he estado trabajando últimamente:</p>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- g-* = Gutters, espaciado en 'x' y 'y' entre columnas -->
+                @foreach (var proyecto in Model.portafolioDTO)
+                {
+                    <div class="col">
+
+                        <div class="card h-100"> <!-- h-100 = Tarjetas del mismo tamaño -->
+                            <img src="@proyecto.imagenURL" class="card-img-top" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@proyecto.titulo</h5>
+                            <h5 class="card-text">@proyecto.descripcion</h5>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="@proyecto.link" target="_blank"
+                                rel="noopener noreferrer">Visitar</a>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    }
+
 </div>

@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\lib\images\" />
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\lib\images\me.heic" />
+    <None Include="wwwroot\img\me.heic" />
   </ItemGroup>
 
 </Project>
