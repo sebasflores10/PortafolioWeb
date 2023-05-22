@@ -8,10 +8,12 @@
 
 
 # Debug - Net6.0 | staticwebassets
-PortafolioWeb/bin/*
-PortafolioWeb/obj/*
+/PortafolioWeb/bin/*
+/PortafolioWeb/obj/*
 
 # .vs Directories
-.vs/PortafolioWeb/*
-.vs/ProjectEvaluation/*
+/.vs/PortafolioWeb/*
+/.vs/ProjectEvaluation/*
 
+# node_modules
+/node_modules

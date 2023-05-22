@@ -21,14 +21,14 @@
             <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- g-* = Gutters, espaciado en 'x' y 'y' entre columnas -->
                 @foreach (var proyecto in Model.portafolioDTO)
                 {
-                    <div class="col">
+                    <div class="col-md-4">
 
-                        <div class="card h-100"> <!-- h-100 = Tarjetas del mismo tamaño -->
+                        <div class="card">  <!-- h-100 = Tarjetas del mismo tamaño -->
                             <img src="@proyecto.imagenURL" class="card-img-top" alt="" />
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">@proyecto.titulo</h5>
-                            <h5 class="card-text">@proyecto.descripcion</h5>
+                            <h6 class="card-title">@proyecto.titulo</h6>
+                            <h6 class="card-text">@proyecto.descripcion</h6>
                         </div>
                         <div class="card-footer">
                             <a class="btn btn-primary" href="@proyecto.link" target="_blank"
