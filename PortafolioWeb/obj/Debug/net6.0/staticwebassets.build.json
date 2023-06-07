@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TTATIgd6a32JngPr7/SVy/8AfE1AtVuHsrzKtun9AQg=",
+  "Hash": "6hHggtisoqBJ6D7hnrKdxh7ieToPqj1527BdYiqwbNs=",
   "Source": "PortafolioWeb",
   "BasePath": "_content/PortafolioWeb",
   "Mode": "Default",
@@ -83,40 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\briefcase.jpg",
-      "SourceId": "PortafolioWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\",
-      "BasePath": "_content/PortafolioWeb",
-      "RelativePath": "img/briefcase.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\briefcase.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.heic",
-      "SourceId": "PortafolioWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\",
-      "BasePath": "_content/PortafolioWeb",
-      "RelativePath": "img/me.heic",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\me.heic"
     },
     {
       "Identity": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.PNG",

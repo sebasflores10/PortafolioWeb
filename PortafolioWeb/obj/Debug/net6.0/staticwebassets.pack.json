@@ -13,16 +13,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\briefcase.jpg",
-      "PackagePath": "staticwebassets\\img\\briefcase.jpg"
-    },
-    {
       "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.PNG",
       "PackagePath": "staticwebassets\\img\\me.PNG"
-    },
-    {
-      "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\me.heic",
-      "PackagePath": "staticwebassets\\img\\me.heic"
     },
     {
       "Id": "C:\\Users\\sebas\\source\\repos\\PortafolioWeb\\PortafolioWeb\\wwwroot\\img\\tek-experts.PNG",
