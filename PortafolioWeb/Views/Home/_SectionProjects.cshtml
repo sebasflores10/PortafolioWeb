@@ -17,28 +17,5 @@ objeto que se desea reutilizar y la condición cambiaría a: @if (Model != null)
         <p>A continuación, te mostraré algunos de los proyectos en los que he estado trabajando últimamente:</p>
     </div>
 
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- g-* = Gutters, espaciado en 'x' y 'y' entre columnas -->
-            @foreach (var proyecto in Model)
-            {
-                <div class="col-md-4">
-
-                    <div class="card">
-                        <!-- h-100 = Tarjetas del mismo tamaño -->
-                        <img src="@proyecto.imagenURL" class="card-img-top" alt="" />
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">@proyecto.titulo</h6>
-                        <h6 class="card-text">@proyecto.descripcion</h6>
-                    </div>
-                    <div class="card-footer">
-                        <a class="btn btn-primary" href="@proyecto.link" target="_blank"
-                           rel="noopener noreferrer">Visitar</a>
-                    </div>
-
-                </div>
-            }
-        </div>
-    </div>
+    <partial name="_ProjectsList" model="Model" />
 }

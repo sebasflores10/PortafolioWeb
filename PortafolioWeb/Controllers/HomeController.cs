@@ -75,9 +75,10 @@ namespace PortafolioWeb.Controllers
         //    return View(modelo);
         //}
 
-        public IActionResult Privacy()
+        public IActionResult Projects()
         {
-            return View();
+            var projects = repo.obtenerPortafolio();
+            return View(projects);  
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
